@@ -1,6 +1,6 @@
 {
   "name": "@cpfarher/react-highlightjs",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A react js wrapper for highlight.js",
   "main": "lib/index.js",
   "scripts": {

@@ -3,9 +3,9 @@ import highlight from 'highlight.js';
 
 export type HighlightProps = {
   children: React.ReactNode,
-  className: string,
+  className?: string,
   language: string, 
-  style: CSSProperties | undefined
+  style?: CSSProperties | undefined
 }
 export default function Highlight (props: HighlightProps) {
   const { children, className, language, style } = props;
