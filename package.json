@@ -1,14 +1,23 @@
 {
   "name": "@cpfarher/react-highlightjs",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A react js wrapper for highlight.js",
+  "homepage": "https://github.com/cpfarher/react-highlightjs",
+  "keywords": ["highlight.js", "react", "syntax-highlighter"],
   "main": "lib/index.js",
   "scripts": {
     "build": "rm -rf ./lib && tsc",
     "test": "jest",
     "prepare": "yarn build"
   },
-  "author": "Christian Pfarher <c.pfarher@gmail.com>",
+  "author": {
+    "name": "Christian Pfarher",
+    "email": "c.pfarher@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cpfarher/react-highlightjs"
+  },
   "license": "MIT",
   "devDependencies": {
     "@types/jest": "^26.0.20",
