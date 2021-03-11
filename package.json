@@ -1,5 +1,5 @@
 {
-  "name": "react-highlightjs",
+  "name": "@cpfarher/react-highlightjs",
   "version": "1.0.0",
   "description": "A react js wrapper for highlight.js",
   "main": "lib/index.js",
