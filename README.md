@@ -1,7 +1,6 @@
 # @cpfarher/react-highlightjs
 A wrapper Highlight.js component for React. 
 I take the ideas from react-highlight.js npm package but without a lot of dependencies and following the KISS principle
-
 # Installation NPM
 ```bash
 npm install react-highlight.js --save
@@ -16,7 +15,7 @@ And then use react-highlightjs to display your text like so:
 ```jsx
 import Highlight from '@cpfarher/react-highlightjs';
 
-<Highlight language={language}>
+<Highlight language={language} showCopy={true}>
   {content}
 </Highlight>
 ```
